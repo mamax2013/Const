@@ -1,0 +1,34 @@
+.header {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    list-style: none;
+    grid-gap: 35px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.09091px;
+    color: #48555b;
+  }
+  &__activ {
+    color: #00a4e5;
+  }
+}
