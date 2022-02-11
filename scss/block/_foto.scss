@@ -1,0 +1,33 @@
+.foto {
+  background-image: url("../../img/bg1.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  &__info {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 37%;
+  }
+
+  &__tecst {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #48555b;
+  }
+
+  &__btn {
+    margin-top: 35px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background: #00a4e5;
+    border: 0;
+    padding: 10px 30px;
+  }
+}
