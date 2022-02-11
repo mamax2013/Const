@@ -1,0 +1,42 @@
+.info {
+  &__stor {
+    margin-top: 58px;
+    text-align: center;
+  }
+
+  &__store {
+    width: 50px;
+    border: solid 2px #00a4e5;
+    margin-bottom: 85px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__tecs {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555b;
+    margin-bottom: 30px;
+
+    &__tecs, span {
+      color: #00a4e5;
+    }
+  }
+
+  &__tecst { 
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555b;
+    margin-right: 77px;
+  }
+
+  &__foto {
+    display: flex;
+    grid-gap: 20px;
+  }
+}
