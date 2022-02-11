@@ -1,0 +1,27 @@
+.icon {
+  &__info {
+    display: flex;
+    margin: 0 20px;
+    grid-gap: 20px;
+  }
+
+  &__wrapper {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    padding: 30px 13px;
+  }
+
+  &__test {
+    margin: 20px 0 15px 0;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555b;
+  }
+
+  &__tecst {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555b;
+  }
+}
