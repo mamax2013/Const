@@ -1,0 +1,40 @@
+.form {
+  &__test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #171819;
+    border: 0;
+    padding: 30px 0;
+  }
+
+  &__tecst {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.846154px;
+    color: #ffffff;
+    margin-right: 70px;
+  }
+
+  &__por {
+    font-size: 14px;
+    line-height: 16px;
+    align-items: flex-end;
+    letter-spacing: 0.07px;
+    color: #48555b;
+    background: #ffffff;
+    border: 1px solid #979797;
+    padding: 8.5px;
+    padding-right: 95px;
+  }
+
+  &__btn {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: #00a4e5;
+    border: 0;
+    padding: 10px 30px;
+  }
+}
