@@ -1,0 +1,39 @@
+.button {
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 0 100px;
+  }
+
+  &__test {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.30625px;
+    color: #48555b;
+  }
+
+  &__lini {
+    width: 50px;
+    border: 2px solid #00a4e5;
+    margin-left: 0;
+  }
+
+  &__tecst {
+    margin-left: 100px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555b;
+  }
+
+  &__btn {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background: #00a4e5;
+    border: 0;
+    padding: 10px 30px;
+  }
+}
