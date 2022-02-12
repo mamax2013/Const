@@ -1,0 +1,46 @@
+.footer {
+  &__wrapper {
+    background: #141a20;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    
+  }
+
+  &__logo-in {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #ffffff;
+  }
+
+  &__test {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #ffffff;
+  }
+
+  &__log-t {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+  }
+
+  &__tecst {
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+  }
+
+  &__log5 {
+      display: flex;
+      grid-gap: 20px;
+  }
+}
