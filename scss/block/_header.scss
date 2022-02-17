@@ -9,6 +9,13 @@
     align-items: center;
   }
 
+  &__logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   &__nav {
     display: flex;
     justify-content: center;
@@ -19,6 +26,10 @@
     display: flex;
     list-style: none;
     grid-gap: 35px;
+  }
+
+  &__toggler {
+    display: none;
   }
 
   &__link {

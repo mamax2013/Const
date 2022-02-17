@@ -19,6 +19,12 @@
     margin-left: 0;
   }
 
+  &__wrapp {
+    display: flex;
+    align-items: center;
+    grid-gap: 30px;
+  }
+
   &__tecst {
     margin-left: 100px;
     font-size: 11px;
